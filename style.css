@@ -38,5 +38,30 @@ footer {
 }
 
 .card {
-  width : 45%;
+  width: 45%;
+}
+
+@media (max-width : 680px){
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    width: 100%;
+    display: inline;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
 }
